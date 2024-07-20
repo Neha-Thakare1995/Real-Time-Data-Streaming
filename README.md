@@ -87,8 +87,9 @@ Visualizing real-time data streams can significantly enhance the efficiency and 
 
 The design solution for monitoring the hollow fibre packaging process proved to be effective in providing a dynamic and interactive view of real-time data. The visual components included a Data Stream Window (Crawler Component) and a Summary Boxplot. The Data Stream Window continuously displayed incoming data points, while the Summary Boxplot dynamically updated to reflect the statistical summary of the data.
 
+### Before the Data Points Flow Across the Crawler
 ![Before the data points flow across the crawler](/images/BeforeImageCrawling.png)
-
+### Data Points Flow Across the Crawler and the Boxplot Changes Dynamically
 ![Data points flow across the crawler and the boxplot changes dynamically](/images/AfterImageCrawlling.png)
 
 These visual components allowed users to monitor events and activities at a glance, facilitating immediate analysis and decision-making. The Crawler Component’s ability to handle large volumes of data, reset visual displays, and update dynamically contributed to its success as a reusable and versatile tool.
